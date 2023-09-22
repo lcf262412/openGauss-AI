@@ -3,3 +3,4 @@ keras-rl2
 paramiko
 bayesian-optimization
 ptable
+cryptography>=41.0.4 # not directly required, pinned by Snyk to avoid a vulnerability
