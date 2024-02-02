@@ -3,3 +3,4 @@ torch==1.8.1
 psycopg2==2.8.6
 psqlparse==1.0rc7
 numpy==1.19.5
+pillow>=10.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
