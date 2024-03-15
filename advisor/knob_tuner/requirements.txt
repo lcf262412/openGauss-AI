@@ -1,4 +1,4 @@
-tensorflow>=2.2.0
+tensorflow>=2.12.0rc1
 keras-rl2
 paramiko
 bayesian-optimization
