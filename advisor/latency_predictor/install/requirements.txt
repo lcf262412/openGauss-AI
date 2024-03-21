@@ -1,7 +1,9 @@
 configparser==3.8.1
 Flask==0.12.2
 Keras==2.2.4
-numpy==1.16.4
+numpy==1.22.2
 pandas==0.25.1
 scikit-learn==0.19.1
-tensorflow==1.14.0
+tensorflow==2.12.0rc1
+werkzeug>=2.3.8 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
